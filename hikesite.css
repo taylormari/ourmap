@@ -1,0 +1,82 @@
+body {
+  background:      url(images/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline:    0.0rem solid hsla(1000, 0%, 0%, 0) ;
+  margin:          unset;
+  box-sizing:      unset;
+  padding:         unset;
+  color:           unset;
+  text-decoration: unset;
+
+}
+
+.markers img {
+	max-width: 15px;
+	position: absolute;
+}
+
+#backbutton {
+	max-width: 80px;
+	position: absolute;
+	margin-top: 3vh;
+	left: 2vw;
+}
+
+.gallery {
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.gallery img {
+	max-width: 400px;
+	max-height: 400px;
+	padding: 20px;
+	margin-top: 10vh;
+}
+
+#laguna_1 {
+	top: 630px;
+	right: 520px;
+}
+
+#laguna_2 {
+	top: 650px;
+	right: 515px;
+}
+
+#la {
+	top: 130px;
+	left: 600px;
+}
+
+#malibu_1 {
+	top: 180px;
+	left: 394px;
+}
+
+#malibu_2 {
+	top: 160px;
+	left: 130px;
+}
+
+#pasadena {
+	top: 100px;
+	left: 700px;
+}
+
+#fullerton {
+	top: 350px;
+	left: 860px;
+}
+
+#huntington {
+	top: 560px;
+	left: 850px;
+}
+
+#newport {
+	top: 590px;
+	left: 900px;
+}
